@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cod 03 de JavaScript</title>
+</head>
+<body>
+    <script>
+        let contato = { 
+            "nome":"Ester",
+            "email":"ester@senai",
+            "telefone":"123456789",
+            "dizerOi": function(){
+                alert ("oi eu sou a " + this.nome);
+            }
+        }
+        console.log("o nome é " + contato.nome + " e o telefone é " + contato.telefone);
+        contato.dizerOi();
+
+    </script>
+</body>
+</html>
