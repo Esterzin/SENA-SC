@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula dia 09/06</title>
+    <script src="style.css"></script>
+
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            text-align: center;
+            background-color:pink;
+            color: black;
+            font: normal 15px arial;
+        }
+
+        #kanban{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+
+        }
+
+    </style>
+</head>
+<body>
+    <br>
+    <h1>Bem vindo ao kanban</h1>
+    <br>
+    <br>
+    <p>Esse sistema foi criado para gerenciamento de tarefas. Crie uma atividade clicando aqui</p>
+    <br>
+    <br>
+
+    <main id="kanban">
+        <div class="A Fazer">
+            <h3>A Fazer</h3>
+            <p>Titulo</p>
+            <p>Descrição</p>
+            <div>
+                <button>A Fazer</button>
+                <button>Fazendo</button>
+                <button>Pronto</button>
+            </div>
+            <br>
+            <div>
+                <p>Titulo</p>
+                <p>Descrição</p>
+                <div>
+                    <button>A Fazer</button>
+                    <button>Fazendo</button>
+                    <button>Pronto</button>
+                </div>        
+            </div>
+        </div>
+
+        <div class="Fazendo">
+            <h3>Fazendo</h3>
+            <p>Titulo</p>
+            <p>Descrição</p>
+            <div>
+                <button>A Fazer</button>
+                <button>Fazendo</button>
+                <button>Pronto</button>
+            </div>   
+            <br>
+            <div>
+                <p>Titulo</p>
+                <p>Descrição</p>
+                <div> 
+                    <button>A Fazer</button>
+                    <button>Fazendo</button>
+                    <button>Pronto</button>
+                </div>  
+            </div>
+        </div>    
+
+        <div class="Pronto">
+            <h3>Pronto</h3>
+            <p>Titulo</p>
+            <p>Descrição</p>
+            <div>
+                <button>Tarefa Concluida</button>
+            </div>
+    
+        </div>
+    </main>
+
+    <main id="adicionar"></main>
+</body>
+</html>
